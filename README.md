@@ -13,6 +13,29 @@ npm i
 http://localhost:3000/
 ```
 
+# 首頁
+```
+Nuxtjs\pages\index.vue
+```
+```vue
+Nuxtjs\pages\index.vue
+
+<template>
+  <Tutorial/>
+</template>
+
+<script>
+export default {
+  name: 'IndexPage'
+}
+</script>
+```
+Tutorial 是 component
+可以在下面目錄中找到
+```
+Nuxtjs\components\Tutorial.vue
+```
+
 # git commit message
 - 常用描述
 ```
