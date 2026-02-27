@@ -1,25 +1,40 @@
-# Nuxt.js 測試專案
-測試 Nuxt.js 框架專案
+# 🚀 Nuxt.js 測試專案
 
-# 安裝
-[安裝 Nuxt.js](./docs/Nuxtjs_Init.md)
+這是一個用於測試與練習 Nuxt.js 框架的專案，旨在探索其核心功能與組件架構。 🏗️
 
-```
-npm i
+---
+
+## 🛠️ 安裝步驟
+
+你可以點擊查看 [安裝 Nuxt.js 的詳細指南](./docs/Nuxtjs_Init.md)，或是直接在終端機執行以下指令：
+
+```bash
+cd Nuxtjs
+npm install
 ```
 
-# 執行
-```
-http://localhost:3000/
+---
+
+## 🏃 專案執行
+
+使用以下指令啟動開發伺服器：
+
+```bash
+npm run dev
 ```
 
-# 首頁
-```
-Nuxtjs\pages\index.vue
-```
+開發環境啟動後，請查看終端機顯示的網址（預設通常為 http://localhost:3000/）：
+🔗 [http://localhost:3000/](http://localhost:3000/)
+*(註：若 3000 端口被佔用，Nuxt 會自動切換至其他端口，如 http://localhost:6583/)*
+
+---
+
+## 🏠 首頁結構與組件
+
+專案的首頁文件位於：
+`Nuxtjs\pages\index.vue`
+
 ```vue
-Nuxtjs\pages\index.vue
-
 <template>
   <Tutorial/>
 </template>
@@ -30,17 +45,8 @@ export default {
 }
 </script>
 ```
-Tutorial 是 component
-可以在下面目錄中找到
-```
-Nuxtjs\components\Tutorial.vue
-```
 
-# git commit message
-- 常用描述
-```
-✨ feat: 需求功能描述
-🐛 fix: 修正 bug 的問題描述
-💄 optimize: 最佳化程式碼或功能流程
-🔧 chore: 雜事，例如: 調整設定檔案等等 
-```
+### 🧩 組件說明
+在範例中看到的 `<Tutorial/>` 是一個組件 (Component)，你可以在以下目錄找到它：
+📍 `Nuxtjs\components\Tutorial.vue`
+
